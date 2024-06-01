@@ -1,0 +1,151 @@
+@startuml
+!pragma layout smetana
+'https://plantuml.com/sequence-diagram
+
+Interface "BoardInterface" {
+    + void initBoard()
+    + void initRows()
+    + void initColumns()
+    + void initBlocks()
+    + void copyRows()
+    + void copyColumns()
+    + void copyBlocks()
+    + boolean isSolved()
+    + void clearBoard()
+}
+
+Interface "DashboardState" {
+    + void render()
+    + void clear()
+    + JPanel getPanel()
+}
+
+Class "Board" {
+    + ArrayList<Row> rows
+    + ArrayList<Column> columns
+    + ArrayList<Block> blocks
+    + int numRows
+    + int numColumns
+    + int numBlocks
+    + int numCellsPerGroup
+}
+
+Class "Row" {
+    + ArrayList<Cell> getCells()
+    + Cell getCell()
+    + void setCell()
+    + boolean isValidInput()
+
+    - ArrayList<Cell> cells
+}
+
+Class "Column" {
+    + ArrayList<Cell> getCells()
+    + Cell getCell()
+    + void setCell()
+    + boolean isValidInput()
+
+    - ArrayList<Cell> cells
+}
+
+Class "Block" {
+    + ArrayList<Cell> getCells()
+    + Cell getCell()
+    + void setCell()
+    + boolean isValidInput()
+
+    - ArrayList<Cell> cells
+}
+
+Class "Cell" {
+    + int getCellValue()
+    + void setCellValue()
+
+    - int cellValue
+}
+
+Class "Simulator" {
+    + {static} void runSimulation()
+    + {static} void main()
+    + {static} ArrayList<String> readFile()
+    + {static} IncorrectFileNameException()
+    + {static} ArrayList<int[]> parseFile()
+    + {static} File pickBoard()
+
+    + {static} Dashboard applicationWindow
+    + {static} Board board
+    + {static} Board userInputBoard
+    + {static} ArrayList<int[]> parsedFile
+}
+
+Class "Dashboard" {
+    + void changeState()
+    + JFrame getMainFrame()
+    + JFrame getMainPanel()
+    + JButton getChangeStateButton()
+
+    - JFrame mainFrame
+    - JPanel mainPanel
+    - JButton changeStateButton
+    - DashboardState dashboardState
+    + NullDashBoardState nullDashBoardWindow
+    + MainMenuState mainMenuWindow
+    + SudokuBoardState sudokuBoardWindow
+    + DifficultyState difficultyWindow
+}
+
+Class "NullDashBoardState" {
+    + NullDashBoardState()
+}
+
+Class "DifficultyState" {
+    + DifficultyState()
+
+    - JButton hardDifficultyButton
+    - JButton mediumDifficultyButton
+    - JButton easyDifficultyButton
+    - JLabel difficultyStateTitle
+    - JPanel difficultyPanel
+}
+
+Class "MainMenuState" {
+    + MainMenuState()
+
+    - JButton mainMenuStartButton
+    - JPanel mainMenuPanel
+    - JLabel mainMenuTitle
+    - JFrame mainMenuFrame
+    - JLabel mainMenuSubtitle
+}
+
+Class "SudokuBoardState" {
+    + SudokuBoardState()
+
+    - JPanel sudokuBoardPanel
+    - JButton solveButton
+    - JButton returnMainMenuButton
+    - JButton clearBoardButton
+    - JLabel resultLabel
+    - boolean foundInvalidInput
+    + ArrayList<JTextArea[]> textAreaBoard
+    + ArrayList<int[]> intTextAreaBoard
+
+}
+
+Board --|> BoardInterface
+NullDashBoardState --|> DashboardState
+NullDashBoardState --o JFrame
+DifficultyState --|> DashboardState
+DifficultyState --o JFrame
+MainMenuState --|> DashboardState
+MainMenuState --o JFrame
+SudokuBoardState --|> DashboardState
+SudokuBoardState --o JFrame
+Row "9" --o "1    " Board
+Column "9 " --o " 1" Board
+Block " 9" --o "1" Board
+Cell "9   " --o " 1" Row
+Cell "9 " --o " 1" Column
+Cell "9 " --o "1    " Block
+
+@enduml

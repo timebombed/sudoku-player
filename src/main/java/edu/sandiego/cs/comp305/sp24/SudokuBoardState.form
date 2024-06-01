@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="edu.sandiego.cs.comp305.sp24.SudokuBoardState">
+  <grid id="27dc6" binding="sudokuBoardPanel" layout-manager="GridLayoutManager" row-count="11" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1434" height="979"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="8d735" class="javax.swing.JTextArea" binding="cell1_1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e925d" class="javax.swing.JTextArea" binding="cell8_9">
+        <constraints>
+          <grid row="7" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="23d56" class="javax.swing.JTextArea" binding="cell8_1">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="4c91e" class="javax.swing.JTextArea" binding="cell1_9">
+        <constraints>
+          <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="23af" class="javax.swing.JTextArea" binding="cell2_9">
+        <constraints>
+          <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="fe8e9" class="javax.swing.JTextArea" binding="cell2_1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="a9ca1" class="javax.swing.JTextArea" binding="cell2_2">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="db960" class="javax.swing.JTextArea" binding="cell2_3">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="5d9b2" class="javax.swing.JTextArea" binding="cell3_3">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="5e212" class="javax.swing.JTextArea" binding="cell3_2">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="8189e" class="javax.swing.JTextArea" binding="cell3_1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="126c7" class="javax.swing.JTextArea" binding="cell8_2">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="f510a" class="javax.swing.JTextArea" binding="cell8_3">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="369f9" class="javax.swing.JTextArea" binding="cell3_9">
+        <constraints>
+          <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="3fd98" class="javax.swing.JTextArea" binding="cell1_3">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="ffdde" class="javax.swing.JTextArea" binding="cell1_2">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="992a0" class="javax.swing.JTextArea" binding="cell3_5">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="1c1ae" class="javax.swing.JTextArea" binding="cell3_4">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="97020" class="javax.swing.JTextArea" binding="cell3_8">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="67412" class="javax.swing.JTextArea" binding="cell3_7">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="e2e16" class="javax.swing.JTextArea" binding="cell3_6">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="cb2b8" class="javax.swing.JTextArea" binding="cell6_9">
+        <constraints>
+          <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="407f0" class="javax.swing.JTextArea" binding="cell4_8">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="696e1" class="javax.swing.JTextArea" binding="cell5_7">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="2a963" class="javax.swing.JTextArea" binding="cell7_2">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1995b" class="javax.swing.JButton" binding="solveButton">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="5" height="5"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Solve"/>
+        </properties>
+      </component>
+      <component id="96138" class="javax.swing.JTextArea" binding="cell9_1">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="f91e6" class="javax.swing.JButton" binding="returnMainMenuButton">
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="5" height="5"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Main Menu"/>
+        </properties>
+      </component>
+      <component id="fe1c3" class="javax.swing.JButton" binding="clearBoardButton">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="5" height="5"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <component id="ff645" class="javax.swing.JTextArea" binding="cell1_5">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="e7f40" class="javax.swing.JTextArea" binding="cell1_6">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="dfcd7" class="javax.swing.JTextArea" binding="cell1_7">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="66691" class="javax.swing.JTextArea" binding="cell1_8">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="99821" class="javax.swing.JTextArea" binding="cell1_4">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="ae083" class="javax.swing.JTextArea" binding="cell2_4">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="417e2" class="javax.swing.JTextArea" binding="cell2_5">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="30882" class="javax.swing.JTextArea" binding="cell2_6">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="e455a" class="javax.swing.JTextArea" binding="cell2_7">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="194f4" class="javax.swing.JTextArea" binding="cell2_8">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="6a8e9" class="javax.swing.JTextArea" binding="cell4_1">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="5f872" class="javax.swing.JTextArea" binding="cell4_2">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="bc6da" class="javax.swing.JTextArea" binding="cell4_3">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="98c75" class="javax.swing.JTextArea" binding="cell4_4">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="40e95" class="javax.swing.JTextArea" binding="cell4_5">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="5db4f" class="javax.swing.JTextArea" binding="cell4_6">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="1408b" class="javax.swing.JTextArea" binding="cell4_7">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="eb554" class="javax.swing.JTextArea" binding="cell4_9">
+        <constraints>
+          <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="f04bb" class="javax.swing.JTextArea" binding="cell5_1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="669d" class="javax.swing.JTextArea" binding="cell5_2">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="fc09a" class="javax.swing.JTextArea" binding="cell5_3">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="5baae" class="javax.swing.JTextArea" binding="cell5_5">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="b6391" class="javax.swing.JTextArea" binding="cell5_6">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="cb258" class="javax.swing.JTextArea" binding="cell5_8">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="b2099" class="javax.swing.JTextArea" binding="cell5_9">
+        <constraints>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="381b7" class="javax.swing.JTextArea" binding="cell6_1">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="4cd1d" class="javax.swing.JTextArea" binding="cell6_2">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="57fa8" class="javax.swing.JTextArea" binding="cell6_3">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="e37e0" class="javax.swing.JTextArea" binding="cell6_4">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="9308" class="javax.swing.JTextArea" binding="cell6_5">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="c6ce4" class="javax.swing.JTextArea" binding="cell6_6">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="26346" class="javax.swing.JTextArea" binding="cell6_7">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="888a4" class="javax.swing.JTextArea" binding="cell6_8">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="5b64c" class="javax.swing.JTextArea" binding="cell7_1">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="1fe86" class="javax.swing.JTextArea" binding="cell7_3">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="ad5cf" class="javax.swing.JTextArea" binding="cell7_4">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="d699" class="javax.swing.JTextArea" binding="cell7_5">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="c1602" class="javax.swing.JTextArea" binding="cell7_6">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="57925" class="javax.swing.JTextArea" binding="cell7_7">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="1c122" class="javax.swing.JTextArea" binding="cell7_8">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="aed80" class="javax.swing.JTextArea" binding="cell7_9">
+        <constraints>
+          <grid row="6" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="23a45" class="javax.swing.JTextArea" binding="cell8_4">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="fb6ed" class="javax.swing.JTextArea" binding="cell8_5">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="ce3d1" class="javax.swing.JTextArea" binding="cell8_6">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="74c34" class="javax.swing.JTextArea" binding="cell8_7">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="fcac8" class="javax.swing.JTextArea" binding="cell8_8">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="afa91" class="javax.swing.JTextArea" binding="cell9_2">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="8fa7b" class="javax.swing.JTextArea" binding="cell9_3">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="2fc93" class="javax.swing.JTextArea" binding="cell9_4">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="296ba" class="javax.swing.JTextArea" binding="cell9_5">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="9f87b" class="javax.swing.JTextArea" binding="cell9_6">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="9e24f" class="javax.swing.JTextArea" binding="cell9_7">
+        <constraints>
+          <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="322c0" class="javax.swing.JTextArea" binding="cell9_8">
+        <constraints>
+          <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="4e2ca" class="javax.swing.JTextArea" binding="cell9_9">
+        <constraints>
+          <grid row="8" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="48420" class="javax.swing.JTextArea" binding="cell5_4">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="bb9ba" class="javax.swing.JLabel" binding="resultLabel">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="default"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
